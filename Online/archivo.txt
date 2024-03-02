@@ -1,2 +1,5 @@
 Aprendiendo GIT
 Nuevo GIT
+gif diff
+este enlista una lista de cambios
+creando ramas para trabajar fuera de la linea principal
