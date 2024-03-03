@@ -1,1 +1,3 @@
 nuevo nuevo
+Ok cambio desde VS Code
+OK Nuevos cambios directamente desde VS Code
