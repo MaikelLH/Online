@@ -4,17 +4,17 @@ archivo a usar con su extensión, "r (read) o w(write)
 Permite trabajar con datos de otras extensiones inclusive inportar datos'''
 
 def  escritura (datoa, datob, datoc):
-    prueba=open('"C:\Users\Maike\Python\Python_VS\Aprende\OperacionesBasicas.py"','w')
+    prueba=open("C:\Users\Maike\Python\workspace\Aprende\OperacionesBasicas.py",'w')
     prueba.write(datoa)
     prueba.write(datob)
     prueba.write(datoc)
     print ("escritura")
     prueba.close
-escritura('Hola', 
+    escritura('Hola', 
           'Mundo',
           'Bonito')
 def lectura():
-    prueba=open('"C:\Users\Maike\Python\Python_VS\Aprende\OperacionesBasicas.py"','r')
+    prueba=open("C:\Users\Maike\Python\workspace\Aprende\OperacionesBasicas.py",'r')
     print(prueba.read())
     prueba.close
     lectura()

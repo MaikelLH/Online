@@ -1,8 +1,8 @@
-pregunta = int(input("Trabajas desde Casa "))
-if pregunta == True:
+pregunta = (input("Trabajas desde Casa "))
+if pregunta == "Si":
     print("Eres Afortunado")
-
-if pregunta == False:
+    exit()
+if pregunta == "No":
     print("Trabajas fuera de casa")
 
 tiempo = int(input("Cuantos minutos haces al trabajo "))

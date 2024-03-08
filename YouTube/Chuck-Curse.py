@@ -8,7 +8,12 @@ print("Hello, welcome to NetworkChuck Coffee!!!!!!!")
 
 name = input("What's your name?\n")
 
-print("Hello " + name + ", thank you so much for coming in today.\n")
+if name == "Ben":
+    print("You´re not welcome here Evil Ben!! Get Out!!")
+    exit()
+else: 
+    print("Hello " + name + ", thank you so much for coming in today.\n")
+
 # con el + contatenamos y tenemos control de los espacios entre oraciones
 
 menu = "Black Coffee, Espreso, Latte, Cappucino"
@@ -23,12 +28,14 @@ quantity = (input("How many " + order + " do you want?\n"))
 
 total = price * int(quantity)
 
-print("Thank you. Your total is: $" + str(total) + "\n")
-
 print("Sounds good " + name + ", we'll have your " + quantity + " " + order + " ready for you in a moment.\n")
+
+print("Thank you. Your total is: $" + str(total) + "\n")
 
 
 
 print(type(menu))
 print(type(quantity))
+print(type(quantity))
+print(type(total))
 
